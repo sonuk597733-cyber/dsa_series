@@ -1,0 +1,230 @@
+🟢 PHASE 1 — DSA FOUNDATION
+Duration: ~7 days
+Language: JavaScript
+Goal: DSA ka basic logic + Big-O + Array fundamentals
+________________________________________
+1. DSA Introduction
+Subtopics
+•	DSA kya hai? 
+•	Data kya hota hai? 
+•	Data Structure kya hai? 
+•	Algorithm kya hai? 
+•	Data Structure vs Algorithm 
+•	Real-life examples 
+•	DSA ki zarurat kyu hai? 
+•	Problem-solving approach 
+Is topic ke 5 questions
+Q1. Data Structure kya hota hai? Example do.
+Q2. Algorithm kya hota hai?
+Q3. Array ko Data Structure kyu kehte hain?
+Q4. Algorithm aur Program mein kya difference hai?
+Q5. Kisi problem ko solve karne ke basic steps kya hain?
+________________________________________
+2. Time Complexity
+Subtopics
+•	Complexity kya hai? 
+•	Time Complexity 
+•	Input size n 
+•	Big-O notation 
+•	O(1) 
+•	O(n) 
+•	O(n²) 
+•	O(log n) 
+•	Best case 
+•	Worst case 
+•	Average case 
+Examples
+console.log(arr[0]);
+→ O(1)
+for (let i = 0; i < n; i++) {
+    console.log(i);
+}
+→ O(n)
+Nested loop:
+for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+        console.log(i, j);
+    }
+}
+→ O(n²)
+Is topic ke 5 questions
+Q1. O(1) kya hota hai? Example do.
+Q2. Single for loop ki complexity kya hogi?
+Q3. Nested for loop ki complexity kya hogi?
+Q4. O(n) aur O(n²) mein kaunsa faster hai?
+Q5. Is code ki complexity batao:
+for (let i = 0; i < n; i++) {
+    console.log(i);
+}
+
+for (let j = 0; j < n; j++) {
+    console.log(j);
+}
+________________________________________
+3. Space Complexity
+Subtopics
+•	Space Complexity kya hai? 
+•	Input space 
+•	Auxiliary space 
+•	O(1) space 
+•	O(n) space 
+•	Extra array/object ka impact 
+•	Time vs Space trade-off 
+Examples
+let sum = 0;
+Extra space → O(1)
+let result = [];
+
+for (let i = 0; i < n; i++) {
+    result.push(i);
+}
+Extra space → O(n)
+Is topic ke 5 questions
+Q1. Space Complexity kya hoti hai?
+Q2. let x = 10 ki extra space complexity kya hai?
+Q3. let arr = new Array(n) ki space complexity kya hogi?
+Q4. Time Complexity aur Space Complexity mein difference batao.
+Q5. Is code ki space complexity batao:
+let result = [];
+
+for (let i = 0; i < n; i++) {
+    result.push(i * 2);
+}
+________________________________________
+4. JavaScript Array Fundamentals
+Subtopics
+•	Array kya hai? 
+•	Index 
+•	length 
+•	Accessing elements 
+•	Updating elements 
+•	Traversing array 
+•	for loop 
+•	for...of 
+•	Insert 
+•	Delete 
+•	Search 
+•	push() 
+•	pop() 
+•	shift() 
+•	unshift() 
+Example
+let nums = [10, 20, 30, 40];
+
+console.log(nums[0]); // 10
+Index:
+10   20   30   40
+ ↑    ↑    ↑    ↑
+ 0    1    2    3
+Is topic ke 5 questions
+Q1. Array [10,20,30,40] mein 30 ka index kya hai?
+Q2. Array ke end mein element add karne ke liye kya use karenge?
+Q3. Array ke end se element remove karne ke liye kya use karenge?
+Q4. Array ko loop se traverse karke saare elements print karo.
+Q5. [10,20,30] mein 20 ko 50 se replace karo.
+________________________________________
+5. Array Traversal & Basic Problems
+Subtopics
+•	Array traversal 
+•	Sum 
+•	Count 
+•	Maximum 
+•	Minimum 
+•	Even/Odd 
+•	Searching 
+•	Reverse 
+Example
+let nums = [2, 5, 8, 10];
+
+let sum = 0;
+
+for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+}
+
+console.log(sum);
+Is topic ke 5 LeetCode-style questions
+Q1. Find Maximum
+Input: [3, 7, 2, 9, 4]
+Output: 9
+Q2. Find Minimum
+Input: [8, 3, 6, 1, 9]
+Output: 1
+Q3. Array Sum
+Input: [1,2,3,4,5]
+Output: 15
+Q4. Count Even Numbers
+Input: [1,2,4,7,8,9]
+Output: 3
+Q5. Reverse Array
+Input: [1,2,3,4]
+Output: [4,3,2,1]
+________________________________________
+6. Linear Search
+Subtopics
+•	Searching 
+•	Linear Search 
+•	Target 
+•	Index return 
+•	-1 
+•	Best/Worst case 
+Example
+let nums = [10, 20, 30, 40];
+let target = 30;
+Output:
+2
+Is topic ke 5 questions
+Q1.
+nums = [5,8,2,9]
+target = 2
+Find index.
+Q2.
+nums = [10,20,30]
+target = 50
+Target nahi mile to kya return karoge?
+Q3. Array mein target kitni baar present hai, count karo.
+Q4. Array mein first occurrence ka index find karo.
+Q5. Array mein target present hai ya nahi, true/false return karo.
+________________________________________
+7. Basic Problem-Solving Pattern
+Subtopics
+Har problem ko solve karte waqt:
+1.	Problem samjho 
+2.	Input identify karo 
+3.	Output identify karo 
+4.	Example banao 
+5.	Brute-force idea socho 
+6.	Code likho 
+7.	Test karo 
+8.	Complexity nikalo 
+9.	Optimize karo 
+Is topic ke 5 practice questions
+Q1. Array mein largest number find karo.
+Q2. Array mein second largest number find karo.
+Q3. Array mein duplicate hai ya nahi check karo.
+Q4. Array mein positive aur negative numbers count karo.
+Q5. Array mein given target ka index return karo.
+________________________________________
+🎯 PHASE 1 Final Test
+Phase 1 complete karne ke baad bina notes dekhe ye 5 problems solve karni hain:
+1.	Find Maximum 
+2.	Find Minimum 
+3.	Array Sum 
+4.	Linear Search 
+5.	Reverse Array 
+Agar ye 5 comfortably solve ho jaate hain, Phase 1 DONE ✅
+Phase 1 ka actual purpose
+Is phase ke baad tumhe ye aana chahiye:
+Problem
+   ↓
+Input/Output samajhna
+   ↓
+Loop lagana
+   ↓
+Array traverse karna
+   ↓
+Logic banana
+   ↓
+Code
+   ↓
+O(n) / O(1) identify karna
